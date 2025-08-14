@@ -1,2 +1,11 @@
 # Wephone
 HTML (index.html) &lt;!DOCTYPE html> &lt;html lang="en"> &lt;head>     &lt;meta charset="UTF-8">     &lt;meta name="viewport" content="width=device-width, initial-scale=1.0">     &lt;title>Webphone&lt;/title>     &lt;style>         #videoElement {             width: 320px;             height: 240px;             border: 1px solid black;         }     &lt;/style> &lt;/head> &lt;body
+<body>
+    <h2>Webphone</h2>
+    <button id="startCall">Start Call</button>
+    <button id="endCall" disabled>End Call</button>
+    <video id="videoElement" autoplay></video>
+
+    <script src="app.js"></script>
+</body>
+</html>
